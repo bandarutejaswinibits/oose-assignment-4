@@ -5,12 +5,13 @@
 import unittest
 
 from sample.simple import add_one
+from sample.simple import multiply
 
 # Multiplication Code:
 class TestSimple(unittest.TestCase):
 
-    def test_mul_two(self):
-        self.assertEqual(mul_two(5), 6)
+    def test_multiply(self):
+        self.assertEqual(multiply(5, 4), 20)
 
 
 
