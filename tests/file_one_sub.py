@@ -9,8 +9,8 @@ from sample.simple import add_one
 
 class TestSimple(unittest.TestCase):
 
-    def test_add_one(self):
-        self.assertEqual(add_one(5), 6)
+    def test_sub_two(self):
+        self.assertEqual(sub_two(5), 6)
 
 
 if __name__ == '__main__':
