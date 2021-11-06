@@ -4,13 +4,13 @@
 
 import unittest
 
-from sample.simple import add_one
+from sample.simple import subtract
 
 
 class TestSimple(unittest.TestCase):
 
     def test_sub_two(self):
-        self.assertEqual(sub_two(5), 6)
+        self.assertEqual(subtract(6, 4), 2)
 
 
 
