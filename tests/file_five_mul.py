@@ -6,7 +6,7 @@ import unittest
 
 from sample.simple import add_one
 
-
+# Multiplication Code:
 class TestSimple(unittest.TestCase):
 
     def test_mul_two(self):
