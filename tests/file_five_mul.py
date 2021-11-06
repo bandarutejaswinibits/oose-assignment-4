@@ -6,11 +6,12 @@ import unittest
 
 from sample.simple import add_one
 
-
+# Multiplication Code:
 class TestSimple(unittest.TestCase):
 
     def test_mul_two(self):
         self.assertEqual(mul_two(5), 6)
+
 
 
 if __name__ == '__main__':
